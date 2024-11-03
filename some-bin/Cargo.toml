@@ -1,0 +1,7 @@
+[package]
+name = "some-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+some-inner-lib-rename = { path = "../some-lib", package = "some-lib" }
