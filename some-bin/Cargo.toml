@@ -3,5 +3,7 @@ name = "some-bin"
 version = "0.1.0"
 edition = "2021"
 
+[workspace]
+
 [dependencies]
-some-inner-lib-rename = { path = "../some-lib", package = "some-lib" }
+some-inner-lib-rename = { git = "https://github.com/gui1117/debug_rustc_suggestion", package = "some-inner-lib" }
