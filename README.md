@@ -53,3 +53,4 @@ I believe this wrong suggestion appears because we do some "renaming" in the car
 ```toml
 some-inner-lib-rename = { path = "../some-inner-lib", package = "some-inner-lib" }
 ```
+With combination with usage of trait (If we use a struct like Foo, then the suggestion is correct).
